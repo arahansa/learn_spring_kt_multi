@@ -1,3 +1,10 @@
 package com.arahansa.account.domain
 
- data class Account (var name: String)
+open class Account : BaseEntity() {
+
+    var email?: String = null
+    var password?: String = null
+
+
+
+}
