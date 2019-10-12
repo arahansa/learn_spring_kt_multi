@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController
  * 어카운트 관련 api
  */
 @RestController
-@RequestMapping("/account")
+@RequestMapping("/api/account")
 class AccountApi {
 
     @GetMapping("/", "")
